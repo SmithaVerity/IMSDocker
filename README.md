@@ -21,9 +21,6 @@
     5. Run the following commands
     
     ```
-    sudo docker exec -it imsdb /bin/bash
-    sudo docker exec -i imsdb mysql -u ubuntu -pUbuntu@123 shop_inventory < db.sql
-
-    
-    # Dump data in shop_inventory db
-    mysql -u ubuntu -pUbuntu@123 shop_inventory < updateDB.sql
+    sudo docker exec -i imsdb mysql -u root -padmin < createuser.sql
+    sudo docker exec -i imsdb mysql -u ubuntu -pUbuntu@123 shop_inventory < updateDB.sql
+    ```
