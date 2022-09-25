@@ -17,4 +17,4 @@
     git clone https://github.com/SmithaVerity/IMS.git
     ```
 
-    4.	Check the installation by accessing the IP address of the instance.
+    4.	Check the installation by accessing the IP address of the instance/IMS.
