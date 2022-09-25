@@ -21,6 +21,6 @@
     5. Run the following commands
     
     ```
-    sudo docker exec -i imsdb mysql -u root -padmin < createuser.sql
+    sudo docker exec -i imsdb mysql -u root -padmin < createUser.sql
     sudo docker exec -i imsdb mysql -u ubuntu -pUbuntu@123 shop_inventory < updateDB.sql
     ```
