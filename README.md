@@ -18,6 +18,7 @@
     ```
     4.	Create new user ubuntu with password Ubuntu@123, Grant privileges and Create DB shop_inventory. Dump data in shop_inventory db
     ```
+    exit
     sudo docker exec -ti imsdb mysql -u root -padmin < createUser.sql
     sudo docker exec -ti imsdb mysql -u ubuntu -pUbuntu@123 shop_inventory < updateDB.sql
     ```
