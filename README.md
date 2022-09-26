@@ -14,7 +14,7 @@
     3.	Run the following code to get the code.
 
     ```
-    git clone https://github.com/SmithaVerity/IMS_Docker_Code.git
+    git clone -b docker https://github.com/SmithaVerity/IMS.git
     ```
     4.	Check the installation by accessing the IP address of the instance/IMS_Docker_Code.
 
