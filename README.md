@@ -15,9 +15,6 @@
 
     ```
     git clone https://github.com/SmithaVerity/IMS_Docker_Code.git
-    exit
-    sudo docker exec -i imsdb mysql -u root -padmin < createUser.sql
-    sudo docker exec -i imsdb mysql -u ubuntu -pUbuntu@123 shop_inventory < updateDB.sql
     ```
     4.	Check the installation by accessing the IP address of the instance/IMS_Docker_Code.
 
