@@ -7,10 +7,10 @@ sudo docker network create ims-net
 sudo docker run -ti --name imsdb --network ims-net -e MYSQL_ROOT_PASSWORD=admin -p 3306:3306 -d mysql:5.7
 
 # create new user ubuntu with password Ubuntu@123, Grant privileges and Create DB shop_inventory
-sudo docker exec -i imsdb mysql -u root -padmin < createUser.sql
+sudo docker exec -ti imsdb mysql -u root -padmin < createUser.sql
 
 # Dump data in shop_inventory db
-sudo docker exec -i imsdb mysql -u ubuntu -pUbuntu@123 shop_inventory < updateDB.sql
+sudo docker exec -ti imsdb mysql -u ubuntu -pUbuntu@123 shop_inventory < updateDB.sql
 
 # launch prestashop container
 sudo docker run -ti --name ims --network ims-net -e DB_SERVER=imsdb -p 80:80 -d aspendigital/codeigniter:latest
