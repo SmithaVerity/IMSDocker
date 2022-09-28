@@ -3,12 +3,12 @@ services:
     php-apache-environment:
         container_name: php-apache
         build:
-            context: ./IMS
+            context: ./php
             dockerfile: Dockerfile
         depends_on:
             - db
         volumes:
-            - ./IMS:/var/www/html/
+            - ./php:/var/www/html/
         ports:
             - 80:80
     db:
