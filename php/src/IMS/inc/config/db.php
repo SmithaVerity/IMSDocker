@@ -5,7 +5,7 @@
 		$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 	} catch(PDOException $e){
 		$errorMessage = $e->getMessage();
-		echo $errorMessage;
+		echo $errorMessage+" really!!!";
 		exit();
 	}
 ?>
