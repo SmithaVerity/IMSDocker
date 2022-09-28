@@ -22,7 +22,7 @@
     sudo docker exec -ti imsdb mysql -u root -padmin < createUser.sql
     sudo docker exec -ti imsdb mysql -u ubuntu -pUbuntu@123 shop_inventory < updateDB.sql
     ```
-    5.	Check the installation by accessing the IP address of the instance/IMS_Docker_Code.
+    5.	Check the installation by accessing the IP address of the instance/IMS.
 
     
   
