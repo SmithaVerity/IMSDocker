@@ -5,10 +5,10 @@
 	
 	// Database parameters
 	// Data source name
-	define('DSN', 'mysql:host=localhost;dbname=shop_inventory');
+	define('DSN', 'mysql:host=db;dbname=shop_inventory');
 	
 	// Hostname
-	define('DB_HOST', 'localhost');
+	define('DB_HOST', 'db');
 	
 	// DB user
 	define('DB_USER', 'ubuntu');
