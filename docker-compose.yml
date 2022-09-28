@@ -22,3 +22,5 @@ services:
             MYSQL_PASSWORD: Ubuntu@123
         ports:
             - "3306:3306"
+        volumes:
+            - mysql-data:/var/lib/mysql
